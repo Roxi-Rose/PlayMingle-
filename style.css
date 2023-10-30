@@ -84,9 +84,10 @@ main {
 
 main h3 {
     font-family: sans-serif;
-    color: #ffd900;
     font-size: medium;
+    color: #ffea00;
 }
+
 
 main ul {
     font-family: monospace;
@@ -133,19 +134,19 @@ main ul {
 #Contact-page h1 {
     font-size: 36px;
     margin-top: 0;
-    color: #ffcc00;
+    color: #ffea00;
 }
 
 #Contact-page p {
     font-size: 18px;
     line-height: 1.6;
     margin: 10px 0;
-    color: #ccc;
+    color: #ffffff;
     margin: 60px 0px 130px;
 }
 
 #Contact-page strong {
-    color: #ffcc00;
+    color: #fffef9;
     font-size: larger;
     padding: 1px;
 }
@@ -187,7 +188,7 @@ form textarea {
     border: 2px solid #eb1708;
     border-radius: 8px;
     background-color: #333;
-    color: #eeff00;
+    color: #fefff5;
 }
 
 form button {
@@ -334,5 +335,11 @@ body {
     border: 2px solid #eb1708;
     border-radius: 8px;
     background-color: #333;
-    color: #eeff00;
+    color: #fdfdf4;
 }
+
+main h2 {
+    color: #ffea00;
+}
+
+ 
