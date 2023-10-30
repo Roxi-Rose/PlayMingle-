@@ -57,3 +57,21 @@ main {
     color: #ffffff;
     float: left;
 }
+
+
+#back {
+    text-align: center;
+    margin: 20px 70px 0px 70px;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    color: #250d07;
+    border-radius: 20px;
+}
+
+.button_icon {
+    padding: 0px 20px 0px 20px;
+    font-size: 18px;
+    margin: 0px 40px 0px -14px;
+    
+} 

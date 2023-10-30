@@ -5,6 +5,7 @@ function getComputerChoice() {
 }
 
 var select = document.getElementById("games-dropdown");
+const backbutton = document.getElementById('back');
 select.addEventListener("change", function() {
     var selectedOption = select.options[select.selectedIndex].value;
     if (selectedOption) {
@@ -96,6 +97,10 @@ function playGame() {
     let endGameButton = document.getElementById('endGameButton')
     endGameButton.onclick = () => endGame()
 }
+
+backbutton.addEventListener('click', () => {
+    window.location.href = 'playmingle.html';
+});
 
 // ** endGame function clears all the text on the DOM **
 function endGame() {

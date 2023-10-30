@@ -677,3 +677,8 @@ select.addEventListener("change", function() {
         window.location.href = selectedOption + ".html";
     }
 });
+
+
+backButton.addEventListener('click', () => {
+    window.location.href = 'playmingle.html';
+});

@@ -40,6 +40,7 @@ const checkWin = () => {
 
 // Game Logic
 let boxes = document.getElementsByClassName("box");
+const backbutton = document.getElementById('back');
 Array.from(boxes).forEach(element => {
     let boxtext = element.querySelector('.boxtext');
     element.addEventListener('click', () => {
@@ -74,4 +75,8 @@ select.addEventListener("change", function() {
     if (selectedOption) {
         window.location.href = selectedOption + ".html";
     }
+});
+
+backbutton.addEventListener('click', () => {
+    window.location.href = 'playmingle.html';
 });

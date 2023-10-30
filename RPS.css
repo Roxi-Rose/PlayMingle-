@@ -38,6 +38,17 @@ button {
     flex:8;
 }
 
+
+#objective {
+    font-size:small;
+    background: linear-gradient(to bottom, #ff0000, #2a0808);
+    color: #ffffff;
+    padding: 0px 10px 10px;
+    border-radius: 15px;
+    font-family: monospace;
+    flex:8;
+}
+
 #objective ul{
     font-size:small;
     font-family: monospace;
@@ -51,3 +62,24 @@ button {
     
 }
 
+#back {
+    text-align: center;
+    margin: 20px 70px 0px 70px;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    color: #080808;
+}
+
+.button_icon {
+    padding: 0px 20px 0px 20px;
+    font-size: 18px;
+    margin: 0px 40px 0px -14px;
+    
+} 
+
+.button_text{
+    text-align: center;
+    font-size: 18px;
+    
+}
